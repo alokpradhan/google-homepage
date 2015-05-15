@@ -3,11 +3,11 @@
 #google_logo {
 	height:163.3px;
 	width:269px;
-	padding-top:112px;
+	padding-top:172px;
 }
 
 #logo {
-	height:280px;
+	height:340px;
 	width:300px;
 	margin-left:auto;
 	margin-right:auto;
@@ -16,7 +16,7 @@
 
 #search {
 	height:500px;
-	width:500px;
+	width:550px;
 	margin-left:auto;
 	margin-right:auto;
 	clear:both;
@@ -24,7 +24,7 @@
 
 #search_box {
 	height:30px;
-	width:500px;
+	width:550px;
 	border:1px solid #D8D8D8;
 	font-family:Arial, Serif;
 }
@@ -40,6 +40,12 @@
 	color:#424242;
 	border-radius:6%;
 	margin: 0 12px 0 0; 
+}
+
+#top-navbar {
+	position:fixed;
+	top:5px;
+	right:0;
 }
 
 li a img {
@@ -73,17 +79,27 @@ li {
 
 #bottom-navbar {
 	height:40px;
+	width:100%;
 	background-color:#F2F2F2; 
 	border-top: 1px solid #D8D8D8;
+	position:fixed;
+	bottom:0;
+	left:0;
 }
 
 #bottom-navbar-left {
-	float:left;
 	display:inline-box;
 	margin-left:20px;
+	float:left;
 }
 
 #bottom-navbar-right {
 	float:right;
 	display:inline-box;
+	text-align:right;
+}
+
+#bottom-navbar li a {
+	color:#6E6E6E;
+	margin-right:14px;
 }
